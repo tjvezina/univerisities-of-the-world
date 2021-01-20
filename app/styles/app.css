@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,300italic,400,700,700italic);
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+a,
+button {
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background: #b9cbdf;
+}
+
+a {
+  color: #016aba;
+  text-decoration: none;
+}
+
+.button {
+  padding: 10px 30px 10px;
+  margin: 20px 10px;
+  width: 128px;
+  text-decoration: none;
+  color: #fff;
+  background: #016aba;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  display: inline-block;
+}
+
+.active-button {
+  background-color: #268ad6;
+  border-style: solid;
+  border-color: #092e4b;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  margin: 32px;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.scrollbox {
+  padding: 8px 32px;
+  border-style: solid;
+  border-color: #313a497f;
+  overflow-y: scroll;
+  height: 320px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.horizontal-group {
+  display: flex;
+  justify-content: center;
+}
+
+.country-list-item {
+  display: flex;
+}
+
+.country-list-item p {
+  width: 50%;
+  font-size: x-large;
+  font-weight: bold;
+  color: #113753;
+  margin: 10px 0;
+}
+
+.country-list-item .university-count {
+  text-align: right;
+}

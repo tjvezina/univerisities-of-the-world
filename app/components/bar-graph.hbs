@@ -1,0 +1,9 @@
+{{ember-chart
+  type="bar"
+  data=this.data
+  options=this.options}}
+<div class="horizontal-group">
+  {{#each this.graphCountList as |count|}}
+    <button class="button {{if (eq this.graphCount count) "active-button"}}" {{on "click" (fn this.setCount count)}}>Top {{count}}</button>
+  {{/each}}
+</div>
